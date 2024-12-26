@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anuj_JS_Task1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <style type="text/css">
+
+    Header
+    {
+            background-color:blue ;
+            text-align: center;
+            height: 70px;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 30px;
+    }
+
+    .Box1
+    {
+        padding-left: 50px;
+        height: 200px;
+    }
+
+    .Item
+    {
+          list-style-type: none;
+
+          display: flex;
+    }
+
+    #item_list 
+    {
+         margin-top: 20px;
+         padding-left: 110px;
+    }
+
+    #item_list img
+    {
+      height: 100px;
+    }
+
+     #item_list h6
+    {
+       padding-left: 20px;
+    }
+
+     #item_list img:hover
+    {
+       height: 120px;
+       cursor: pointer;
+    }
+
+     #item_list h6:hover
+    {
+       cursor: pointer;
+       color: red;
+    }
+
+   
+
+    .Box2
+    {
+      background-color: lightgrey;
+      height: 660px;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .Box2 img
+    {
+      padding-top: 20px;
+      padding-left: 150px;
+      padding-right: 150px;
+      width: 100%;
+      height: 400px;
+    }
+
+    .Box2 h4
+    {
+      padding-left: 600px;
+      padding-top: 10px;
+    }
+    
+
+   .Table 
+    {
+     border-collapse: collapse;
+     width: 100%;
+     padding-left: 150px;
+    }
+
+    .Table th
+    {
+      background-color:darkviolet ;
+      text-align: left;
+      padding: 10px;
+    }
+    
+    .Table td
+    {
+      border: 1px solid black;
+      text-align: left;
+      padding: 5px;
+      width: 295px;
+    }
+
+    .Discount
+    {
+      padding-left: 10px;
+      color: red;
+    }
+
+    .Points
+    {
+      padding-top: 30px;
+      color: gray;
+    }
+
+   Footer
+   {
+     background-color: black;
+     color: white;
+     height: 40px;
+     width: 100%;
+     border-radius: 10px;
+     text-align: center;
+   }
+    
+  </style>
+
+  <body>
+
+
+    <header>AJ's FASHION STORE</header>
+
+    <div class ="Box1">
+
+      <ul class="Item">
+
+        <div id="item_list">
+        <li><img src="1.jpg"></li>
+        <h6>T-Shirts</h6>
+        </div>
+
+        <div id="item_list">
+        <li><img src="2.jpg"></li>
+        <h6>Sun Glasses</h6>
+        </div>
+
+        <div id="item_list">
+        <li><img src="3.jpg"></li>
+        <h6>Shirts</h6>
+        </div>
+
+        <div id="item_list">
+        <li><img src="4.jpg"></li>
+        <h6>Shoes</h6>
+        </div>
+
+        <div id="item_list">
+        <li><img src="5.jpg"></li>
+        <h6>Paints</h6>
+        </div>
+
+        <div id="item_list">
+        <li><img src="6.jpg" width="100px"></li>
+        <h6>Perfumes</h6>
+        </div>
+
+        
+      </ul>
+       
+    </div>
+
+
+    <div class="Box2">
+
+     <img src="7.jpg"> 
+     
+     <h4>OUR UPCOMING SALES</h4>
+
+     <div class = "Table">
+     <table>
+       <tr>
+         <th>Festival</th>
+         <th>Discount</th>
+         <th>Starting Date</th>
+         <th>Ending Date</th>
+       </tr>
+
+       <tr>
+         <td>Independence Day</td>
+         <td><s>30%</s><span class ="Discount">40%</span></td>
+         <td>10 August</td>
+         <td>18 August</td>
+        </tr>
+
+        <tr>
+         <td>Diwali</td>
+         <td><s>50%</s><span class ="Discount">60%</span></td>
+         <td>10 November</td>
+         <td>21 November</td>
+        </tr>
+
+         <tr>
+         <td>Christmas</td>
+         <td><s>30%</s><span class ="Discount">40%</span></td>
+         <td>20 Decmeber</td>
+         <td>26 December</td>
+        </tr>
+
+         <tr>
+         <td>New Year</td>
+         <td><s>60%</s><span class ="Discount">75%</span></td>
+         <td>30 December</td>
+         <td>6 January</td>
+        </tr>
+     </table>
+     <div>
+
+    </div>
+
+    <h5 class="Points">AJ's FASHION STORE: THE ONE-STOP Fashion Destination</h5>
+
+    <p>"Welcome to the ultimate online shopping destination where quality meets affordability! Our store offers a wide range of handpicked products designed to meet your needs and exceed your expectations. With exclusive deals, fast delivery, and top-notch customer support, we’re committed to providing you with a seamless and satisfying shopping experience. Don’t miss out – explore our collections today and discover why we’re the preferred choice for countless happy customers!"<br><br>
+    What make's us great? Well few things are listed below:</p>
+
+    <h5 class="Points">Festival Sales</h5>
+
+    <p>Some of our festival sales are listed below:<br>
+      <ul>
+        <li>Independence Day Sale</li>
+        <li>Diwali Sale</li>
+        <li>Christmas Sale</li>
+        <li>New Year Sale</li>
+      </ul>
+    
+    <h5 class="Points">Payment Options</h5>
+
+    <p>"We offer a variety of secure and convenient payment options to make your shopping experience hassle-free. Choose from popular methods like credit/debit cards, net banking, UPI, and digital wallets. For added convenience, we also provide cash on delivery in select locations. Rest assured, all transactions are protected with the highest level of encryption to keep your information safe. Shop with confidence and pay the way that works best for you!"</p>
+
+   </div>
+    
+    <footer>&copy; 2021-2023 AJ's FASHION STORE</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
